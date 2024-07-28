@@ -207,14 +207,7 @@ spec:
         host: ts-basic-service
         port:
           number: 15680
-  - match:
-    - uri:
-        prefix:  /api/v1/ticketinfoservice
-    route:
-    - destination:
-        host: ts-ticketinfo-service
-        port:
-          number: 15681
+
   - match:
     - uri:
         prefix: /api/v1/notifyservice
