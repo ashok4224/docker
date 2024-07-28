@@ -224,13 +224,7 @@ services:
       networks:
           - my-network
 
-#  ts-ticketinfo-service:
-#        image: codewisdom/ts-ticketinfo-service-with-jaeger:v1
-#        restart: always
-#        ports:
-#          - 15681:15681
-#        networks:
-#          - my-network
+
 
   ts-price-service:
         image: codewisdom/ts-price-service-with-jaeger:v1
