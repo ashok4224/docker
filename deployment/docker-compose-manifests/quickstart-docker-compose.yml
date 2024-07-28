@@ -224,13 +224,7 @@ services:
       networks:
           - my-network
 
-#  ts-ticketinfo-service:
-#        image: ${NAMESPACE}/ts-ticketinfo-service:${TAG}
-#        restart: always
-#        ports:
-#          - 15681:15681
-#        networks:
-#          - my-network
+
 
   ts-price-service:
         image: ${NAMESPACE}/ts-price-service:${TAG}
