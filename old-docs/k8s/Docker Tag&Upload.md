@@ -37,7 +37,6 @@ docker tag ts/ts-security-service 10.141.211.160:5000/master/cluster-ts-security
 docker tag ts/ts-sso-service 10.141.211.160:5000/master/cluster-ts-sso-service    
 docker tag ts/ts-station-service 10.141.211.160:5000/master/cluster-ts-station-service    
 docker tag ts/ts-ticket-office-service 10.141.211.160:5000/master/cluster-ts-ticket-office-service    
-docker tag ts/ts-ticketinfo-service 10.141.211.160:5000/master/cluster-ts-ticketinfo-service    
 docker tag ts/ts-train-service 10.141.211.160:5000/master/cluster-ts-train-service    
 docker tag ts/ts-travel2-service 10.141.211.160:5000/master/cluster-ts-travel2-service    
 docker tag ts/ts-travel-service 10.141.211.160:5000/master/cluster-ts-travel-service    
@@ -86,7 +85,6 @@ docker push 10.141.211.160:5000/master/cluster-ts-security-service
 docker push 10.141.211.160:5000/master/cluster-ts-sso-service    
 docker push 10.141.211.160:5000/master/cluster-ts-station-service    
 docker push 10.141.211.160:5000/master/cluster-ts-ticket-office-service    
-docker push 10.141.211.160:5000/master/cluster-ts-ticketinfo-service    
 docker push 10.141.211.160:5000/master/cluster-ts-train-service    
 docker push 10.141.211.160:5000/master/cluster-ts-travel2-service    
 docker push 10.141.211.160:5000/master/cluster-ts-travel-service     
